@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-02-08 11:21:28 CST)
+(The last generation time: 2022-02-14 11:17:57 CST)
 
 ### Packages
 
@@ -25,13 +25,13 @@
  app-editors/typora                           | 0.11.18                                   |            | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
                                               | 1.0.4                                     |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/visual-studio-code-bin           | 1.64.0                                    |            | https://code.visualstudio.com                                                           | Multiplatform Visual Studio Code from Microsoft
+ app-editors/visual-studio-code-bin           | 1.64.2                                    |            | https://code.visualstudio.com                                                           | Multiplatform Visual Studio Code from Microsoft
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/winetricks-zh                  | 9999                                      |            | http://winetricks.org                                                                   | winetricks fork for chinese to install QQ
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/dvp                                 | 1.2.1-r1                                  |            | http://kaufmann.no/roland/dvorak/index.html                                             | The kbd keymap for Programmer Dvorak.
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-i18n/fcitx5-kkc                          | 5.0.6                                     |            | https://github.com/fcitx/fcitx5-kkc                                                     | Japanese Kana Kanji conversion engine for Fcitx5
+ app-i18n/fcitx5-kkc                          | 5.0.7                                     |            | https://github.com/fcitx/fcitx5-kkc                                                     | Japanese Kana Kanji conversion engine for Fcitx5
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-i18n/fcitx5-meta                         | 5.0.12                                    |            | https://fcitx-im.org                                                                    | Merge this to pull in Fcitx packages
    app-i18n/fcitx5-chinese-addons             | 5.0.10                                    | RD         | https://github.com/fcitx/fcitx5-chinese-addons                                          | Addons related to Chinese, including IME previous bundled inside fcitx4.
@@ -190,6 +190,7 @@
  dev-cpp/cppcoro                              | 210605                                    |            | https://github.com/Garcia6l20/cppcoro                                                   | A library of C++ coroutine abstractions for the coroutines TS
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-cpp/date                                 | 3.0.1                                     |            | https://github.com/HowardHinnant/date                                                   | A date and time library based on the C++11/14/17 <chrono> header
+                                              | 3.0.1_p220127                             |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-cpp/nameof                               | 0.10.1                                    |            | https://github.com/Neargye/nameof                                                       | Nameof operator for modern C++
                                               | 0.10.1_p220125                            |            |                                                                                         |
@@ -216,7 +217,7 @@
  dev-python/labelme                           | 4.6.0                                     |            | https://github.com/wkentaro/labelme                                                     | Image Polygonal Annotation with Python
    dev-python/imgviz                          | 1.3.0                                     |  D, RD     | https://github.com/wkentaro/imgviz                                                      | mage Visualization Tools
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- dev-python/python-telegram-bot               | 13.10                                     |            | https://github.com/python-telegram-bot/python-telegram-bot                              | Python wrapper of telegram bots API
+ dev-python/python-telegram-bot               | 13.11                                     |            | https://github.com/python-telegram-bot/python-telegram-bot                              | Python wrapper of telegram bots API
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-qt/assistant                             | 5.15.2-r11                                |            |                                                                                         | Tool for viewing on-line documentation in Qt help file format
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -258,7 +259,7 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/jf-openhuninn                    | 1.1                                       |            | https://justfont.com/huninn/                                                            | An opensource Chinese font by justfont, based on Kosugi Maru and Varela Round
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- media-fonts/lxgwwenkai                       | 1.113                                     |            | https://lxgw.github.io/2021/01/28/Klee-Simpchin                                         | An open-source Chinese font derived from Fontworks' Klee One.
+ media-fonts/lxgwwenkai                       | 1.120                                     |            | https://lxgw.github.io/2021/01/28/Klee-Simpchin                                         | An open-source Chinese font derived from Fontworks' Klee One.
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-fonts/nerd-fonts                       | 2.1.0                                     |            | https://github.com/ryanoasis/nerd-fonts                                                 | Nerd Fonts is a project that patches developer targeted fonts with glyphs
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -279,7 +280,7 @@
    media-gfx/sane-backends                    | 9999                                      |  D         | http://www.sane-project.org/                                                            | Scanner Access Now Easy - Backends
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-gfx/tifig-bin                          | 0.2.2                                     |            | https://github.com/monostream/tifig                                                     | Converts iOS 11 HEIC images to practical formats - Static binary
-   sys-libs/glibc                             | 9999                                      |  D, RD     | https://www.gnu.org/software/libc/                                                      | GNU libc C library
+   sys-libs/glibc                             | 2.35                                      |  D, RD     | https://www.gnu.org/software/libc/                                                      | GNU libc C library
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-gfx/xrectsel                           | 0.3.1                                     |            | https://github.com/lolilolicon/xrectsel                                                 | print the geometry of a rectangular screen region
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -398,9 +399,7 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/smartproxy                         | 0.9.4                                     |            | https://github.com/microcai/smartproxy                                                  | A fast, proxy smart selector
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/v2rayA                             | 1.5.5                                     |            | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
-                                              | 1.5.6.2                                   |            |                                                                                         |
-                                              | 9999                                      |            |                                                                                         |
+ net-proxy/v2rayA                             | 1.5.6.2                                   |            | https://v2raya.org/                                                                     | web GUI of Project V which supports V2Ray, Xray, SS, SSR, Trojan and Pingtunnel
    net-proxy/Xray                             | 1.4.3                                     | RD         | https://github.com/XTLS/Xray-core                                                       | Xray, Penetrates Everything.
                                               | 1.4.4                                     |            |                                                                                         |
                                               | 1.4.5                                     |            |                                                                                         |
@@ -464,10 +463,13 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  virtual/dist-kernel                          | 5.15.19                                   |            |                                                                                         | Virtual to depend on any Distribution Kernel
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- virtual/linux-sources                        | 3-r8                                      |            |                                                                                         | Virtual for Linux kernel sources
+ virtual/linux-sources                        | 3-r9                                      |            |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources                | 5.16_p1                                   | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
                                               | 5.16_p2                                   |            |                                                                                         |
                                               | 5.16_p3                                   |            |                                                                                         |
+                                              | 5.16_p4                                   |            |                                                                                         |
+                                              | 5.16_p5                                   |            |                                                                                         |
+                                              | 5.16_p6                                   |            |                                                                                         |
      dev-util/pahole                          | 1.23                                      |  D         | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
    sys-kernel/starfive-sources                | 5.17.0_p1                                 | RD         | https://starfivetech.com                                                                | Linux kernel for StarFive's JH7100 RISC-V SoC
    sys-kernel/xanmod-hybrid                   | 5.15.15                                   | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod, Xanmod-CaCule, cjktty, patchset for main kernel tree
@@ -475,6 +477,7 @@
                                               | 5.15.17                                   |            |                                                                                         |
                                               | 5.15.19                                   |            |                                                                                         |
                                               | 5.15.21                                   |            |                                                                                         |
+                                              | 5.15.22                                   |            |                                                                                         |
    sys-kernel/xanmod-lts                      | 5.15.19                                   | RD         | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
    sys-kernel/xanmod-rt                       | 5.15.12                                   | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod-RT, cjktty, uksm patchset for main kernel tree
                                               | 5.15.14                                   |            |                                                                                         |
