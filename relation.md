@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-02-23 10:43:16 CST)
+(The last generation time: 2022-02-28 18:08:45 CST)
 
 ### Packages
 
@@ -20,10 +20,10 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-dicts/fcitx5-pinyin-zhwiki               | 20220101                                  |            | https://github.com/felixonmars/fcitx5-pinyin-zhwiki                                     | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- app-editors/marktext-bin                     | 0.16.3                                    |            | https://marktext.app/                                                                   | A simple and elegant markdown editor, available for Linux, macOS and Windows.
+ app-editors/marktext-bin                     | 0.17.0                                    |            | https://marktext.app/                                                                   | A simple and elegant markdown editor, available for Linux, macOS and Windows.
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/typora                           | 0.11.18                                   |            | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
-                                              | 1.0.4                                     |            |                                                                                         |
+                                              | 1.1.5                                     |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/winetricks-zh                  | 9999                                      |            | http://winetricks.org                                                                   | winetricks fork for chinese to install QQ
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -187,7 +187,7 @@
  dev-cpp/cppcoro                              | 210605                                    |            | https://github.com/Garcia6l20/cppcoro                                                   | A library of C++ coroutine abstractions for the coroutines TS
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-cpp/date                                 | 3.0.1                                     |            | https://github.com/HowardHinnant/date                                                   | A date and time library based on the C++11/14/17 <chrono> header
-                                              | 3.0.1_p220127                             |            |                                                                                         |
+                                              | 3.0.1_p220217                             |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-cpp/nameof                               | 0.10.1                                    |            | https://github.com/Neargye/nameof                                                       | Nameof operator for modern C++
                                               | 0.10.1_p220125                            |            |                                                                                         |
@@ -214,7 +214,7 @@
  dev-python/labelme                           | 4.6.0                                     |            | https://github.com/wkentaro/labelme                                                     | Image Polygonal Annotation with Python
    dev-python/imgviz                          | 1.3.0                                     |  D, RD     | https://github.com/wkentaro/imgviz                                                      | mage Visualization Tools
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- dev-python/nvchecker                         | 2.7                                       |            | https://pypi.org/project/nvchecker/                                                     | nvchecker is for checking if a new version of some software has been released
+ dev-python/nvchecker                         | 2.7-r1                                    |            | https://pypi.org/project/nvchecker/                                                     | nvchecker is for checking if a new version of some software has been released
    dev-python/structlog                       | 21.5.0                                    | RD         | http://www.structlog.org/en/stable/                                                     | Structured Logging for Python
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/python-telegram-bot               | 13.11                                     |            | https://github.com/python-telegram-bot/python-telegram-bot                              | Python wrapper of telegram bots API
@@ -291,14 +291,11 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-plugins/gimp-gap                       | 2.8.0                                     |            | http://www.gimp.org/                                                                    | Gimp Animation Package
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- media-plugins/osdlyrics                      | 0.5.10-r1                                 |            | https://github.com/osdlyrics/osdlyrics                                                  | Standalone lyrics fetcher/displayer (windowed and OSD mode).
-                                              | 9999                                      |            |                                                                                         |
-----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- media-sound/feeluown                         | 3.8.1                                     |            | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
+ media-sound/feeluown                         | 3.8.3                                     |            | https://github.com/feeluown/FeelUOwn                                                    | A user-friendly and hackable music player
    dev-python/fuo-kuwo                        | 0.1.5                                     |  D         | https://github.com/feeluown/feeluown-kuwo                                               | kuwo music support for feeluown
    dev-python/fuo-local                       | 0.3                                       |  D         | https://github.com/feeluown/feeluown-local                                              | local music support for feeluown
    dev-python/fuo-netease                     | 0.8                                       |  D         | https://github.com/feeluown/feeluown-netease                                            | netease cloud music support for feeluown
-   dev-python/fuo-qqmusic                     | 0.3.3                                     |  D         | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
+   dev-python/fuo-qqmusic                     | 0.4                                       |  D         | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
    dev-python/janus                           | 1.0.0-r1                                  |  D, RD     | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/qasync                          | 0.22.0                                    |  D, RD     | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/tomlkit                         | 0.8.0                                     |  D, RD     | https://github.com/sdispater/tomlkit                                                    | Style-preserving TOML library for Python
@@ -306,6 +303,12 @@
  media-sound/linnya                           | 2.2.0                                     |            | http://www.linnya.org                                                                   | A free music player
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/netease-cloud-music              | 1.2.1                                     |            | https://music.163.com                                                                   | Netease Cloud Music, converted from .deb package
+----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
+ media-sound/netease-cloud-music-gtk          | 1.2.2                                     |            | https://github.com/gmg137/netease-cloud-music-gtk                                       | netease cloud music player based on Rust & GTK3 for Linux
+   media-plugins/osdlyrics                    | 0.5.10-r1                                 | RD         | https://github.com/osdlyrics/osdlyrics                                                  | Standalone lyrics fetcher/displayer (windowed and OSD mode).
+                                              | 9999                                      |            |                                                                                         |
+----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
+ media-sound/termusic                         | 0.6.10                                    |            | https://github.com/tramhao/termusic                                                     | Music Player TUI written in Rust
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/yesplaymusic-bin                 | 0.4.3                                     |            | https://github.com/qier222/YesPlayMusic                                                 | A third party music player for Netease Music
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -327,8 +330,8 @@
    app-emulation/deepin-wine-helper           | 5.1.27-r1                                 | RD         | https://www.deepin.org                                                                  | Deepin Wine Helper
      app-emulation/deepin-wine-plugin         | 5.1.13-r1                                 | RD         | https://www.deepin.org                                                                  | Deepin Wine plugin
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- net-im/dingtalk                              | 1.2.0.147                                 |            | https://gov.dingtalk.com                                                                | dingtalk
-                                              | 1.3.0.12502                               |            |                                                                                         |
+ net-im/dingtalk                              | 1.3.0.12502                               |            | https://gov.dingtalk.com                                                                | dingtalk
+                                              | 1.3.0.20214                               |            |                                                                                         |
    dev-libs/libthai                           | 0.1.28                                    |  D, RD     | https://github.com/tlwg/libthai                                                         | A a set of Thai language support routines
      dev-libs/libdatrie                       | 0.2.13                                    |  D, RD     | https://github.com/tlwg/libdatrie                                                       | Double-Array Trie Library
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -403,6 +406,7 @@
                                               | 1.5.3                                     |            |                                                                                         |
    net-proxy/v2ray                            | 4.40.1                                    | RD         | https://github.com/v2fly/v2ray-core                                                     | A platform for building proxies to bypass network restrictions.
                                               | 4.43.0                                    |            |                                                                                         |
+                                              | 4.44.0                                    |            |                                                                                         |
      dev-libs/v2ray-domain-list-community     | 4.39.2_p20210621183458                    | RD         | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
                                               | 9999                                      |            |                                                                                         |
      dev-libs/v2ray-domain-list-community-bin | 4.39.2_p20210621183458                    | RD         | https://github.com/v2fly/domain-list-community                                          | Community managed domain list for V2Ray.
@@ -428,14 +432,16 @@
  sys-apps/yaourt                              | 1.2.2                                     |            | http://www.archlinux.fr/yaourt-en/                                                      | A pacman wrapper with extended features and AUR support
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  sys-apps/zypper                              | 1.14.51                                   |            | https://en.opensuse.org/Portal:Zypper                                                   | World's most powerful command line package manager
+                                              | 1.14.52                                   |            |                                                                                         |
                                               | 9999                                      |            |                                                                                         |
    sys-libs/libzypp                           | 17.29.1                                   | RD         | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | ZYpp Package Management library
                                               | 9999                                      |            |                                                                                         |
      dev-libs/boost                           | 1.78.0-r2                                 |  D, BD, RD | https://www.boost.org/                                                                  | Boost Libraries for C++
-       dev-libs/libbacktrace                  | 220119                                    |  D, RD     | https://github.com/ianlancetaylor/libbacktrace                                          | A C library for producing symbolic backtraces
+       dev-libs/libbacktrace                  | 220218                                    |  D, RD     | https://github.com/ianlancetaylor/libbacktrace                                          | A C library for producing symbolic backtraces
      sys-libs/libsolv                         | 0.7.20                                    | RD         | https://doc.opensuse.org/projects/libzypp/HEAD/                                         | Library for solving packages and reading repositories
                                               | 9999                                      |            |                                                                                         |
        app-arch/zchunk                        | 1.1.16                                    | RD         | https://github.com/zchunk/zchunk                                                        | A format designed for highly efficient deltas while maintaining good compression
+                                              | 1.2.0                                     |            |                                                                                         |
                                               | 9999                                      |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  sys-devel/ucc                                | 1.1-r0                                    |            | https://sourceforge.net/projects/ucc                                                    | UCC is an ANSI C Compiler
@@ -458,15 +464,19 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  sys-process/btop                             | 1.2.0                                     |            | https://github.com/aristocratos/btop                                                    | Resources monitor. The C++ version of bashtop
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                          | 5.15.19                                   |            |                                                                                         | Virtual to depend on any Distribution Kernel
+ virtual/dist-kernel                          | 5.10.102                                  |            |                                                                                         | Virtual to depend on any Distribution Kernel
+                                              | 5.15.25                                   |            |                                                                                         |
+                                              | 5.16.11                                   |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- virtual/linux-sources                        | 3-r9                                      |            |                                                                                         | Virtual for Linux kernel sources
+ virtual/linux-sources                        | 3-r10                                     |            |                                                                                         | Virtual for Linux kernel sources
    sys-kernel/liquorix-sources                | 5.16.10                                   | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 5.16.9                                    |            |                                                                                         |
+                                              | 5.16.11                                   |            |                                                                                         |
      dev-util/pahole                          | 1.23                                      |  D         | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
    sys-kernel/starfive-sources                | 5.17.0_p4                                 | RD         | https://starfivetech.com                                                                | Linux kernel for StarFive's JH7100 RISC-V SoC
-   sys-kernel/xanmod-hybrid                   | 5.15.24                                   | RD         | https://xanmod.org                                                                      | Full XanMod sources with TT CPU Scheduler and CJKTTY options and including the Gentoo patchset.
-   sys-kernel/xanmod-lts                      | 5.15.19                                   | RD         | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+   sys-kernel/xanmod-hybrid                   | 5.15.25                                   | RD         | https://xanmod.org                                                                      | Full XanMod sources with TT CPU Scheduler and CJKTTY options and including the Gentoo patchset.
+   sys-kernel/xanmod-kernel                   | 5.10.102                                  | RD         | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+                                              | 5.15.25                                   |            |                                                                                         |
+                                              | 5.16.11                                   |            |                                                                                         |
    sys-kernel/xanmod-rt                       | 5.15.12                                   | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod-RT, cjktty, uksm patchset for main kernel tree
                                               | 5.15.14                                   |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
