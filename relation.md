@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-03-14 11:49:06 CST)
+(The last generation time: 2022-03-16 10:22:34 CST)
 
 ### Packages
 
@@ -19,6 +19,8 @@
  app-dicts/copytranslator                     | 9.1.0                                     |            | https://copytranslator.github.io/                                                       | Foreign language reading and translation assistant based on copy and translate.
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-dicts/fcitx5-pinyin-zhwiki               | 20220101                                  |            | https://github.com/felixonmars/fcitx5-pinyin-zhwiki                                     | Fcitx 5 Pinyin Dictionary from zh.wikipedia.org
+----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
+ app-editors/AppFlowy-bin                     | 0.0.3                                     |            | https://www.appflowy.io/                                                                | AppFlowy is an open-source alternative to Notion
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/marktext-bin                     | 0.17.0                                    |            | https://marktext.app/                                                                   | A simple and elegant markdown editor, available for Linux, macOS and Windows.
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -195,7 +197,7 @@
  dev-cpp/tgbot-cpp                            | 1.3                                       |            | https://github.com/reo7sp/tgbot-cpp                                                     | C++ library for Telegram bot API
                                               | 1.3_p211229                               |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- dev-db/dbeaver-bin                           | 21.3.2                                    |            | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
+ dev-db/dbeaver-bin                           | 22.0.0                                    |            | https://dbeaver.io/                                                                     | Free universal database tool (community edition).
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-libs/granite                             | 5.2.1                                     |            | https://github.com/elementary/granite                                                   | Elementary OS library that extends Gtk+
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -207,7 +209,7 @@
                                               | 1.6.0                                     |            |                                                                                         |
                                               | 9999                                      |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- dev-python/conda                             | 4.11.0                                    |            | https://conda.io/                                                                       | OS-agnostic, system-level binary package manager and ecosystem
+ dev-python/conda                             | 4.12.0                                    |            | https://conda.io/                                                                       | OS-agnostic, system-level binary package manager and ecosystem
    dev-python/conda-package-handling          | 1.7.3                                     |  D, RD     | https://github.com/conda/conda-package-handling                                         | Create and extract conda packages of various formats
    dev-python/pycosat                         | 0.6.3                                     |  D, RD     | https://github.com/ContinuumIO/pycosat                                                  | Python bindings to picosat (a SAT solver)
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -240,7 +242,7 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/lldb-mi                             | 9999                                      |            | https://github.com/lldb-tools/lldb-mi                                                   | LLDB Machine Interface Driver
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- dev-util/rust-analyzer                       | 20220307                                  |            | https://github.com/rust-analyzer/rust-analyzer                                          | An experimental Rust compiler front-end for IDEs
+ dev-util/rust-analyzer                       | 20220314                                  |            | https://github.com/rust-analyzer/rust-analyzer                                          | An experimental Rust compiler front-end for IDEs
                                               | 99999999                                  |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/v2ray-geoip-generator               | 9999                                      |            | https://github.com/v2fly/geoip                                                          | GeoIP generator for V2Ray.
@@ -287,6 +289,8 @@
  media-gfx/tifig-bin                          | 0.2.2                                     |            | https://github.com/monostream/tifig                                                     | Converts iOS 11 HEIC images to practical formats - Static binary
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-gfx/xrectsel                           | 0.3.1                                     |            | https://github.com/lolilolicon/xrectsel                                                 | print the geometry of a rectangular screen region
+----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
+ media-gfx/zw3d                               | 2022.26.00                                |            | https://www.zwsoft.cn/product/zw3d/linux                                                | CAD/CAM software for 3D design and processing
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-libs/libspiro                          | 0.3.20150131                              |            | https://github.com/fontforge/libspiro                                                   | Spiro is the creation of Raph Levien. It simplifies the drawing of beautiful curves.
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -474,11 +478,12 @@
                                               | 5.16.13                                   |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r10                                     |            |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 5.16.12-r1                                | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 5.16.13                                   |            |                                                                                         |
+   sys-kernel/liquorix-sources                | 5.16.13                                   | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 5.16.14                                   |            |                                                                                         |
      dev-util/pahole                          | 1.23                                      |  D         | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
    sys-kernel/starfive-sources                | 5.17.0_p4                                 | RD         | https://starfivetech.com                                                                | Linux kernel for StarFive's JH7100 RISC-V SoC
-   sys-kernel/xanmod-hybrid                   | 5.15.25                                   | RD         | https://xanmod.org                                                                      | Full XanMod sources with TT CPU Scheduler and CJKTTY options and including the Gentoo patchset.
+   sys-kernel/xanmod-hybrid                   | 5.15.27                                   | RD         | https://xanmod.org                                                                      | Full XanMod sources with TT CPU Scheduler and CJKTTY options and including the Gentoo patchset.
+                                              | 5.16.13                                   |            |                                                                                         |
    sys-kernel/xanmod-kernel                   | 5.10.104                                  | RD         | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
                                               | 5.15.27                                   |            |                                                                                         |
                                               | 5.16.13                                   |            |                                                                                         |
@@ -514,6 +519,7 @@
  x11-plugins/vicious                          | 9999                                      |            | http://awesome.naquadah.org/wiki/Vicious                                                | Modular widget library for x11-wm/awesome
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  x11-themes/fcitx5-breeze                     | 1.0.0                                     |            | https://github.com/scratch-er/fcitx5-breeze                                             | Fcitx5 theme to match KDE's Breeze style.
+                                              | 2.0.0                                     |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  x11-themes/lxice                             | 0.1.0                                     |            | http://lxde.sf.net/                                                                     | LXDE theme for IceWM
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
