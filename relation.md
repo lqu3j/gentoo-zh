@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-03-19 09:58:35 CST)
+(The last generation time: 2022-03-21 09:56:32 CST)
 
 ### Packages
 
@@ -36,7 +36,7 @@
  app-i18n/fcitx5-meta                         | 5.0.12-r1                                 |            | https://fcitx-im.org                                                                    | Merge this to pull in Fcitx packages
    app-i18n/fcitx5-chinese-addons             | 5.0.12-r1                                 | RD         | https://github.com/fcitx/fcitx5-chinese-addons                                          | Addons related to Chinese, including IME previous bundled inside fcitx4.
                                               | 9999                                      |            |                                                                                         |
-     app-i18n/fcitx5-lua                      | 5.0.7                                     |  D, RD     | https://github.com/fcitx/fcitx5-lua                                                     | Lua support for fcitx
+     app-i18n/fcitx5-lua                      | 5.0.7-r1                                  |  D, RD     | https://github.com/fcitx/fcitx5-lua                                                     | Lua support for fcitx
                                               | 9999                                      |            |                                                                                         |
      app-i18n/fcitx5-qt                       | 5.0.11                                    |  D, RD     | https://github.com/fcitx/fcitx5-qt                                                      | Qt library and IM module for fcitx5
                                               | 9999                                      |            |                                                                                         |
@@ -215,9 +215,6 @@
    dev-python/conda-package-handling          | 1.8.0                                     |  D, RD     | https://github.com/conda/conda-package-handling                                         | Create and extract conda packages of various formats
    dev-python/pycosat                         | 0.6.3                                     |  D, RD     | https://github.com/ContinuumIO/pycosat                                                  | Python bindings to picosat (a SAT solver)
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- dev-python/labelme                           | 4.6.0                                     |            | https://github.com/wkentaro/labelme                                                     | Image Polygonal Annotation with Python
-   dev-python/imgviz                          | 1.3.0                                     |  D, RD     | https://github.com/wkentaro/imgviz                                                      | mage Visualization Tools
-----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-python/nvchecker                         | 2.7-r1                                    |            | https://pypi.org/project/nvchecker/                                                     | nvchecker is for checking if a new version of some software has been released
    dev-python/structlog                       | 21.5.0                                    | RD         | http://www.structlog.org/en/stable/                                                     | Structured Logging for Python
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -341,7 +338,7 @@
      app-emulation/deepin-wine-plugin         | 5.1.13-r1                                 | RD         | https://www.deepin.org                                                                  | Deepin Wine plugin
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-im/dingtalk                              | 1.3.0.12502                               |            | https://gov.dingtalk.com                                                                | dingtalk
-                                              | 1.3.0.20214                               |            |                                                                                         |
+                                              | 1.3.0.20214-r1                            |            |                                                                                         |
    dev-libs/libthai                           | 0.1.28                                    |  D, RD     | https://github.com/tlwg/libthai                                                         | A a set of Thai language support routines
      dev-libs/libdatrie                       | 0.2.13                                    |  D, RD     | https://github.com/tlwg/libdatrie                                                       | Double-Array Trie Library
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -397,10 +394,11 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-print/epson-inkjet-printer_201207w       | 1.0.0                                     |            | http://download.ebz.epson.net/dsc/search/01/search/?OSC=LX                              | Epson printer driver (L110, L210, L300, L350, L355, L550, L555)
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash                              | 1.8.0                                     |            | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
+ net-proxy/clash                              | 1.10.0                                    |            | https://github.com/Dreamacro/clash                                                      | A rule-based tunnel in Go.
+                                              | 1.8.0                                     |            |                                                                                         |
                                               | 1.9.0                                     |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- net-proxy/clash-for-windows-bin              | 0.19.11                                   |            | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
+ net-proxy/clash-for-windows-bin              | 0.19.12                                   |            | https://github.com/Fndroid/clash_for_windows_pkg                                        | A Windows/macOS/Linux GUI based on Clash and Electron.
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-proxy/make-proxy                         | 2.0.0                                     |            | https://github.com/yueyoum/make-proxy                                                   | Socks5 proxy written in Erlang
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -481,8 +479,8 @@
                                               | 5.16.15                                   |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r10                                     |            |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 5.16.14                                   | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 5.16.15                                   |            |                                                                                         |
+   sys-kernel/liquorix-sources                | 5.16.15                                   | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 5.16.16                                   |            |                                                                                         |
      dev-util/pahole                          | 1.23                                      |  D         | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
    sys-kernel/starfive-sources                | 5.17.0_p4                                 | RD         | https://starfivetech.com                                                                | Linux kernel for StarFive's JH7100 RISC-V SoC
    sys-kernel/xanmod-hybrid                   | 5.15.29                                   | RD         | https://xanmod.org                                                                      | Full XanMod sources with TT CPU Scheduler and CJKTTY options and including the Gentoo patchset.
