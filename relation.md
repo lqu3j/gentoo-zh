@@ -1,6 +1,6 @@
 - Reponame: **`gentoo-zh`**
 
-(The last generation time: 2022-03-21 09:56:32 CST)
+(The last generation time: 2022-03-29 14:32:54 CST)
 
 ### Packages
 
@@ -25,7 +25,8 @@
  app-editors/marktext-bin                     | 0.17.0                                    |            | https://marktext.app/                                                                   | A simple and elegant markdown editor, available for Linux, macOS and Windows.
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-editors/typora                           | 0.11.18                                   |            | https://typora.io                                                                       | Typora will give you a seamless experience as both a reader and a writer.
-                                              | 1.1.5                                     |            |                                                                                         |
+                                              | 1.2.4                                     |            |                                                                                         |
+                                              | 1.2.4-r1                                  |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  app-emulation/winetricks-zh                  | 9999                                      |            | http://winetricks.org                                                                   | winetricks fork for chinese to install QQ
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -246,7 +247,7 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  dev-util/v2ray-geoip-generator               | 9999                                      |            | https://github.com/v2fly/geoip                                                          | GeoIP generator for V2Ray.
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- dev-vcs/lazygit-bin                          | 0.33                                      |            | https://github.com/jesseduffield/lazygit                                                | lazygit, a simple terminal UI for git commands
+ dev-vcs/lazygit-bin                          | 0.34                                      |            | https://github.com/jesseduffield/lazygit                                                | lazygit, a simple terminal UI for git commands
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  games-action/DDNet                           | 15.8.1                                    |            | https://ddnet.tw/                                                                       | DDraceNetwork, a cooperative racing mod of Teeworlds
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -305,7 +306,6 @@
    dev-python/fuo-qqmusic                     | 0.4                                       |  D         | https://github.com/feeluown/feeluown-qqmusic                                            | qq music support for feeluown
    dev-python/janus                           | 1.0.0-r1                                  |  D, RD     | https://github.com/aio-libs/janus                                                       | Implementation of the asyncio (PEP 3156) event-loop with Qt
    dev-python/qasync                          | 0.22.0                                    |  D, RD     | https://github.com/CabbageDevelopment/qasync                                            | Implementation of the asyncio (PEP 3156) event-loop with Qt
-   dev-python/tomlkit                         | 0.8.0                                     |  D, RD     | https://github.com/sdispater/tomlkit                                                    | Style-preserving TOML library for Python
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  media-sound/linnya                           | 2.2.0                                     |            | http://www.linnya.org                                                                   | A free music player
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
@@ -331,7 +331,7 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-im/avim                                  | 0.1                                       |            | http://avim.avplayer.org                                                                | avim is a secure IM build around RSA
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- net-im/deepin-wine-wechat                    | 3.4.0.38                                  |            | https://aur.archlinux.org/packages/deepin-wine-wechat                                   | Tencent WeChat on Deepin Wine(com.qq.weixin.deepin) For Gentoo
+ net-im/deepin-wine-wechat                    | 3.4.0.38-r1                               |            | https://aur.archlinux.org/packages/deepin-wine-wechat                                   | Tencent WeChat on Deepin Wine(com.qq.weixin.deepin) For Gentoo
    app-emulation/deepin-wine6-stable          | 6.0.0.19-r1                               | RD         | https://www.deepin.org                                                                  | Deepin wine6 stable
      app-emulation/deepin-udis86              | 1.72-r4                                   | RD         | https://www.deepin.org                                                                  | Deepin Version of Wine
    app-emulation/deepin-wine-helper           | 5.1.27-r1                                 | RD         | https://www.deepin.org                                                                  | Deepin Wine Helper
@@ -365,9 +365,8 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/networkmanager-l2tp                 | 9999                                      |            | http://www.gnome.org/projects/NetworkManager/                                           | NetworkManager L2TP plugin
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- net-misc/nomachine-enterprise-client         | 7.6.2.4                                   |            | https://www.nomachine.com                                                               | NoMachine Enterprise Client
-                                              | 7.7.4.1                                   |            |                                                                                         |
-                                              | 7.8.2.1                                   |            |                                                                                         |
+ net-misc/nomachine-enterprise-client         | 7.8.2.1                                   |            | https://www.nomachine.com                                                               | NoMachine Enterprise Client
+                                              | 7.9.2.1                                   |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  net-misc/pcmanx-gtk2                         | 1.3                                       |            | https://github.com/pcman-bbs/pcmanx                                                     | PCMan is a gtk+ based free BBS client
                                               | 9999                                      |            |                                                                                         |
@@ -474,26 +473,22 @@
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  sys-process/btop                             | 1.2.5                                     |            | https://github.com/aristocratos/btop                                                    | Resources monitor. The C++ version of bashtop
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- virtual/dist-kernel                          | 5.10.106                                  |            |                                                                                         | Virtual to depend on any Distribution Kernel
-                                              | 5.15.29                                   |            |                                                                                         |
-                                              | 5.16.15                                   |            |                                                                                         |
+ virtual/dist-kernel                          | 5.10.107                                  |            |                                                                                         | Virtual to depend on any Distribution Kernel
+                                              | 5.15.30                                   |            |                                                                                         |
+                                              | 5.16.16                                   |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  virtual/linux-sources                        | 3-r10                                     |            |                                                                                         | Virtual for Linux kernel sources
-   sys-kernel/liquorix-sources                | 5.16.15                                   | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
-                                              | 5.16.16                                   |            |                                                                                         |
+   sys-kernel/liquorix-sources                | 5.16.16-r1                                | RD         | https://liquorix.net/                                                                   | Liquorix kernel is best one for desktop, multimedia and gaming workloads
+                                              | 5.16.17                                   |            |                                                                                         |
      dev-util/pahole                          | 1.23                                      |  D         | https://git.kernel.org/cgit/devel/pahole/pahole.git/                                    | pahole (Poke-a-Hole) and other DWARF2 utilities
    sys-kernel/starfive-sources                | 5.17.0_p4                                 | RD         | https://starfivetech.com                                                                | Linux kernel for StarFive's JH7100 RISC-V SoC
-   sys-kernel/xanmod-hybrid                   | 5.15.29                                   | RD         | https://xanmod.org                                                                      | Full XanMod sources with TT CPU Scheduler and CJKTTY options and including the Gentoo patchset.
-                                              | 5.16.15                                   |            |                                                                                         |
-   sys-kernel/xanmod-kernel                   | 5.10.106                                  | RD         | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
-                                              | 5.15.29                                   |            |                                                                                         |
-                                              | 5.16.15                                   |            |                                                                                         |
+   sys-kernel/xanmod-hybrid                   | 5.15.30                                   | RD         | https://xanmod.org                                                                      | Full XanMod sources with TT CPU Scheduler and CJKTTY options and including the Gentoo patchset.
+                                              | 5.17.0                                    |            |                                                                                         |
+   sys-kernel/xanmod-kernel                   | 5.10.107                                  | RD         | https://www.kernel.org/                                                                 | XanMod lts kernel built with Gentoo patches and cjktty
+                                              | 5.15.30                                   |            |                                                                                         |
+                                              | 5.16.16                                   |            |                                                                                         |
    sys-kernel/xanmod-rt                       | 5.15.12                                   | RD         | https://github.com/HougeLangley/customkernel                                            | Xanmod-RT, cjktty, uksm patchset for main kernel tree
                                               | 5.15.14                                   |            |                                                                                         |
-----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
- virtual/proton-ge-custom-meta                | 1                                         |            |                                                                                         | Meta package for proton-ge-custom-bin, make it easier to pull in dependencies
-   app-emulation/proton-ge-custom-bin         | 6.21                                      | RD         | https://github.com/GloriousEggroll/proton-ge-custom                                     | A fancy custom distribution of Valves Proton with various patches
-                                              | 7.8                                       |            |                                                                                         |
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
  www-servers/darkhttpd                        | 1.13                                      |            | http://unix4lyfe.org/darkhttpd/                                                         | A small, static webserver
 ----------------------------------------------|-------------------------------------------|------------|-----------------------------------------------------------------------------------------|--------------------
